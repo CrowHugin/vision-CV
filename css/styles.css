@@ -25,9 +25,9 @@ section {
 
 }
 body{
-    /* background-image: url("../image/backgroundimg2.jpeg");
+    background-image: url("../image/backgroundimg2.jpeg");
     background-repeat: no-repeat;
-    background-size: 110%; */
+    background-size: 110%;
     background-color: black;
 }
 
@@ -80,14 +80,26 @@ main{
 
 /* ----------media querries------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
         #imageCrow{
             border:none;
             display: block;
-            position:unset;
+            position:center;
             margin : auto;
+            top: 50px;
+            left: 130px;
         }
-        body{
-            position :unset;
+        #main{
+            display: flex;
+            direction: column;
+            flex-wrap: wrap;
+            flex: 2;
+        }
+        section{
+            border: 1px solid white;
+            border-radius: 15px;
+            width: 100%;
+            margin: 30px;
+            text-align: center;
         }
 }
