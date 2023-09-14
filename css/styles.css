@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Old London';
+    src: url(../font/OldLondon.ttf),
+         url(../font/OldLondonAlternate.ttf);
+         font-weight: normal;
+         font-style: italic;
+}
+@font-face {
+    font-family: "Mayan";
+    src: url(../font/Mayan.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 30%;
+    margin: 30px;
+    text-align: center;
+
+}
+body{
+    /* background-image: url("../image/backgroundimg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 110%; */
+    background-color: black;
+}
+
+h1
+{
+
+    color: white;
+    text-align: center;
+}
+
+
+
+h2
+{
+    color: white;
+    font-style: italic;
+    font-family: 'Old London','Arial', 'sans-serif';
+}
+
+#imageCrow{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    border: 2px white;
+    box-shadow: 5px,5px,5px white;
+    background-repeat: no-repeat;
+}
+
+
+
+#txt,p{
+    font-family: 'Mayan','Arial','sans-serif';
+}
+p{
+    color: white;
+}
+
+
+
+ul {
+    color: white;
+}
+
+main{
+    margin-top:  200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* ----------media querries------------- */
+
+@media screen and (max-width: 768px) {
+        #imageCrow{
+            border:none;
+            display: block;
+            position:unset;
+            margin : auto;
+        }
+        body{
+            position :unset;
+        }
+}
