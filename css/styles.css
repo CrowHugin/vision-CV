@@ -93,7 +93,6 @@ main{
             display: flex;
             direction: column;
             flex-wrap: wrap;
-            flex: 2;
         }
         section{
             border: 1px solid white;
